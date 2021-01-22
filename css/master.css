@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix
+
+body {
+  font-family: 'Fraunces', serif;
+  font-size: 15px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.testata {
+  width: 100%;
+  background-color: #adf4f5;
+  height: 60px;
+  border-bottom: 1px solid black;
+}
+
+.firstnav {
+  float: left;
+  width: 75%;
+  line-height: 62px;
+}
+
+.firstnav ul li {
+  display: inline;
+  margin: 0 8px;
+  font-weight: bolder;
+}
+.firstnav a {
+  text-decoration: none;
+  color: black;
+}
+.firstnav ul li:first-child::after {
+  content: "\25BE";
+  font-size: 18px;
+}
+
+/* Ho dovuto aggiungere il padding per centrare per bene e non capisco dove sia il problema,
+   inoltre la line-height prima dei 63px faceva in modo che il logo non venisse messo al suo posto*/
+.essentials {
+  display: inline-block;
+  float: left;
+  line-height: 63px;
+}
+/* Ho dovuto aggiungere il padding per centrare per bene e non capisco dove sia il problema */
+
+.essentials ul li {
+  display: inline;
+  margin: 0 10px;
+  font-weight: bolder;
+}
+.secondnav .button_1 a {
+  background-color: #adf4f5;
+  border: 1px solid orange;
+  color: orange;
+}
+.secondnav .button_2 a {
+  background-color: orange;
+  color: white;
+  border: 1px solid white;
+}
+.button_1 a, .button_2 a {
+  padding: 8px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+/*  ---Fine primo menu--- */
+
+.secondmenu {
+  width: 100%;
+}
