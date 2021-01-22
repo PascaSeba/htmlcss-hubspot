@@ -20,7 +20,7 @@ body {
   width: 100%;
   background-color: #adf4f5;
   height: 60px;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid black;
 }
 
 .firstnav {
@@ -74,14 +74,16 @@ body {
   padding-right: 20px;
   text-decoration: none;
 }
-
 /*  ---Fine primo menu--- */
 
+
+/* ---Inizio secondo menù--- */
 .secondmenu {
   width: 100%;
-  padding-top: 20px;
+  height: 10vh;
 }
 #logo {
+  padding-top: 18px;
   float: left;
   width: 60%;
 }
@@ -101,5 +103,35 @@ body {
   font-size: 16px;
 }
 .thirdnav {
+  padding-top: 27px;
   float: left;
+}
+/* ---Fine secondo menù--- */
+
+
+/* Inizio dell'header */
+.maincontent {
+  width: 100%;
+  height: 100%;
+}
+.banner {
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.divisore {
+  background-color: #69f0d8;
+  width: 100%;
+  height: 10vh;
+}
+
+.random {
+  width: 100%;
+  height: 200px;
+  background-color: red;
 }
