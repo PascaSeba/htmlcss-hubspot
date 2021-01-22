@@ -20,12 +20,12 @@ body {
   width: 100%;
   background-color: #adf4f5;
   height: 60px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgrey;
 }
 
 .firstnav {
   float: left;
-  width: 75%;
+  width: 65%;
   line-height: 62px;
 }
 
@@ -79,4 +79,27 @@ body {
 
 .secondmenu {
   width: 100%;
+  padding-top: 20px;
+}
+#logo {
+  float: left;
+  width: 60%;
+}
+.thirdnav ul li a:not(.nope)::after {
+  content: "\25BE";
+  font-size: 18px;
+  vertical-align: middle;
+}
+.thirdnav ul li {
+  display: inline-block;
+  margin: 0 8.5px;
+
+}
+.thirdnav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.thirdnav {
+  float: left;
 }
