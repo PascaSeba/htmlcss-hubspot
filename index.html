@@ -2,16 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script src="https://kit.fontawesome.com/f944c62369.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
+    <script src="https://kit.fontawesome.com/f944c62369.js" crossorigin="anonymous"></script>
     <title>Hubspot</title>
   </head>
   <body>
 
 
   <!-- Inizio contenitori primo menù -->
-    <div class="testata">
+    <div class="testata clearfix">
       <div class="logmenucontainer container">
           <nav class="firstnav">
             <ul>
@@ -36,10 +37,10 @@
 
 
 <!-- Inizio del secondo menu -->
-    <div class="secondmenu">
+    <div class="secondmenu clearfix">
       <div class="infocontainer container">
         <div id="logo">
-          <img src="img/logo.svg" alt="">
+          <a href="#"><img src="img/logo.svg" alt=""></a>
         </div>
         <div class="infonav">
           <nav class="thirdnav">
@@ -58,25 +59,48 @@
 
 <!-- Inizio dell'Header -->
     <header>
-      <div class="maincontent">
+      <div class="maincontent clearfix">
         <div class="banner">
-          <img src="img/jumbotron.png" alt="">
-        </div>
-        
-        <div class="headertext">
-
+          <div class="headertext">
+            <h1>There's a better way to grow.</h1>
+            <p>Marketing, sales and service software that helps your business grow without compromise. Because "good for the business" sould also mean "good for the customer".</p>
+            <a href="#">Get HubspotFree</a>
+            <span>Get started with FREE tools and upgrade as you grow.</span>
+          </div>
+          <div class="camaleonte">
+          </div>
         </div>
       </div>
-
-
-
-
+      <div class="divisore">
+      </div>
     </header>
-    <div class="divisore">
-    </div>
-    <div class="random">
+    <main>
+      <!-- Fine dell'Header -->
 
-    </div>
-<!-- Fine dell'Header -->
+      <div class="Centralcontainer">
+        <div class="middlecontainer container">
+          <div class="cube">
+            <img src="img/cube.png" alt="">
+            <div class="cubetext">
+              <h1>Powerful Alone. Better Togheter.</h1>
+              <p>HubSpot offers a full stack of software for marketing, sales and customer service, with a completely free CRM at its core. They're powerful alone - But even better when used together.</p>
+            </div>
+          </div>
+          <div class="CRM container">
+            <img src="img/info_orizzontale.svg" alt=""><br>
+            <div class="CRMbutton">
+              <a href="#">Learn More</a>
+            </div>
+            <div class="CRMcaption">
+              <h2 class="bottom">Free Hubspot CRM</h2>
+              <p class="bottom">Everything you need to organize, track and build better relationships with leads and customers. Yes, it's 100% free. Forever.</p>
+              <h3 class="bottom">POPOLAR FEATURE</h3><span></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
   </body>
 </html>

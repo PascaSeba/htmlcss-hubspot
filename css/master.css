@@ -4,11 +4,16 @@
   box-sizing: border-box;
 }
 
-.clearfix
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
 
 body {
   font-family: 'Fraunces', serif;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .container {
@@ -80,12 +85,13 @@ body {
 /* ---Inizio secondo menù--- */
 .secondmenu {
   width: 100%;
-  height: 10vh;
+  height: 8.9vh;
 }
 #logo {
-  padding-top: 18px;
+  padding-top: 11px;
   float: left;
-  width: 60%;
+  width: 55%;
+  padding-left: 9px;
 }
 .thirdnav ul li a:not(.nope)::after {
   content: "\25BE";
@@ -94,7 +100,7 @@ body {
 }
 .thirdnav ul li {
   display: inline-block;
-  margin: 0 8.5px;
+  margin: 0 6px;
 
 }
 .thirdnav a {
@@ -103,8 +109,9 @@ body {
   font-size: 16px;
 }
 .thirdnav {
-  padding-top: 27px;
+  padding-top: 17px;
   float: left;
+  width: 40%;
 }
 /* ---Fine secondo menù--- */
 
@@ -112,26 +119,132 @@ body {
 /* Inizio dell'header */
 .maincontent {
   width: 100%;
-  height: 100%;
 }
 .banner {
   width: 100%;
-  height: 600px;
-  object-fit: contain;
-}
-.banner img {
-  width: 100%;
-  height: 100%;
+  height: 75vh;
+  background-image: url(../img/jumbotron.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
 }
 
 .divisore {
   background-color: #69f0d8;
   width: 100%;
   height: 10vh;
+  position: absolute;
+  bottom: 6.7%;
+  border-top: 2px solid #404040;
+  border-bottom: 2px solid #404040;
 }
 
-.random {
+.headertext {
+  width: 52%;
+  float: left;
+  padding-left: 15%;
+  padding-top: 3%;
+}
+.headertext h1 {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+.headertext p {
+  padding-bottom: 30px;
+}
+.headertext a {
+  background-color: orange;
+  font-size: 20px;
+  color: white;
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+.headertext span {
+  display: inline-block;
+  padding-top: 30px;
+}
+.camaleonte {
+  background-color: #fff2ee;
+  height: 75vh;
+  width: 495px;
+  z-index: 0;
+}
+
+.Centralcontainer {
   width: 100%;
-  height: 200px;
-  background-color: red;
+  background-color: #fff2ee;
+}
+
+.cube {
+  margin: 0 auto;
+  width: 70%;
+  padding-bottom: 40px;
+}
+.cube img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%;
+  padding-top: 30px;
+}
+.cubetext h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.cubetext p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.CRM {
+  background-color: white;
+  padding: 60px 100px;
+  width: 90%;
+  position: relative;
+}
+.CRMbutton {
+padding-top: 50px;
+}
+.CRM img {
+  width: 16.9%;
+}
+.CRM a {
+  background-color: orange;
+  font-size: 20px;
+  color: white;
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.CRMcaption {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 100px;
+  position: absolute;
+  top: 18%;
+  left: 33%;
+}
+.bottom {
+  padding-bottom: 30px;
+}
+.CRMcaption h3 {
+  display: inline-block;
+}
+.CRMcaption span::after {
+  margin-left: 30px;
+  display: inline-block;
+  border-top: 2px solid black;
+  content: "";
+  width: 67.7%;
+  height: 2px;
 }
