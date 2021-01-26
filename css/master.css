@@ -16,6 +16,8 @@ body {
   font-weight: bold;
 }
 
+
+/* <!-- Inizio contenitori primo menù --> */
 .container {
   margin: 0 auto;
   width: 80%;
@@ -26,6 +28,9 @@ body {
   background-color: #adf4f5;
   height: 60px;
   border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 
 .firstnav {
@@ -33,7 +38,6 @@ body {
   width: 65%;
   line-height: 62px;
 }
-
 .firstnav ul li {
   display: inline;
   margin: 0 8px;
@@ -82,13 +86,15 @@ body {
 /*  ---Fine primo menu--- */
 
 
+
 /* ---Inizio secondo menù--- */
 .secondmenu {
   width: 100%;
   height: 8.9vh;
+  margin-top: 65px;
 }
 #logo {
-  padding-top: 14px;
+  padding-top: 14.1px;
   float: left;
   width: 55%;
   padding-left: 9px;
@@ -116,6 +122,7 @@ body {
 /* ---Fine secondo menù--- */
 
 
+
 /* Inizio dell'header */
 .maincontent {
   width: 100%;
@@ -135,7 +142,7 @@ body {
   width: 100%;
   height: 10vh;
   position: absolute;
-  bottom: 6.7%;
+  bottom: 6.2%;
   border-top: 2px solid #404040;
   border-bottom: 2px solid #404040;
 }
@@ -153,7 +160,7 @@ body {
 .headertext p {
   padding-bottom: 40px;
 }
-.headertext a {
+.buttonfree {
   background-color: orange;
   font-size: 20px;
   color: white;
@@ -174,10 +181,15 @@ body {
   width: 495px;
   z-index: 0;
 }
+/* Fine dell'Header */
+
+
+/* Inizio contenitore centrale */
 
 .Centralcontainer {
   width: 100%;
   background-color: #fff2ee;
+  padding-bottom: 50px;
 }
 
 .cube {
@@ -269,7 +281,6 @@ padding-top: 50px;
   vertical-align: -1px;
 }
 
-
 .marketing, .sales, .service {
   background-color: white;
   float: left;
@@ -314,4 +325,213 @@ padding-top: 50px;
 .sales ul li, .marketing ul li, .service ul li {
   list-style-type: none;
   padding-bottom: 20px;
+}
+
+/* Fine contenitore centrale */
+
+/* Inizio del learn and grow */
+
+.Learncontainer {
+  width: 100%;
+  background: linear-gradient(90deg, rgba(46,192,222,1) 7%, rgba(23,205,194,1) 52%, rgba(32,187,181,1) 90%);
+  color: white;
+  padding-bottom: 60px;
+}
+
+.learntitle {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 17px;
+}
+.learntitle h2 {
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.learntitle p {
+  padding-bottom: 50px;
+  font-weight: lighter;
+}
+
+.learnfloats {
+  width: 100%;
+}
+.col_1, .col_2, .col_3 {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid white;
+}
+.col_4 {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+}
+.col_1 img, .col_2 img, .col_3 img, .col_4 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+.number {
+  font-size: 40px;
+  font-weight: 900;
+}
+.fubtitle {
+  display: block;
+  padding-top: 10px;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.bordersbot {
+  border-bottom: 1px solid white;
+}
+.marketplace {
+  width: 41.4%;
+  padding-top: 20px;
+}
+.underimage {
+  padding-top: 20px;
+}
+.customersimage {
+  width: 13.5%;
+}
+
+/* Fine del learn and grow */
+
+
+/* Inizio della parte semifinale */
+.Sponsor {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.numbercustomer {
+  padding-top: 30px;
+  padding-left: 150px;
+  width: 30%;
+  float: left;
+}
+.numbercustomer h2 {
+  font-size: 35px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+
+.sponsorlogos {
+  float: left;
+  width: 70%;
+  padding-left: 15%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.sponsorlogos img {
+  width: 20%;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  vertical-align: middle;
+}
+
+.Growing {
+width: 37%;
+float: left;
+padding-top: 40px;
+}
+.Growing h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+.Growing p {
+  padding-bottom: 45px;
+}
+.Growing span {
+  display: block;
+  padding-top: 45px;
+}
+.womanimage {
+  float: right;
+  width: 28%;
+}
+.womanimage img {
+  width: 90%;
+}
+/* Fine della parte semifinale */
+
+/* Fine del main */
+
+
+/* Inizio del footer */
+.footercontainer {
+  width: 100%;
+  background-color: #47424f;
+  padding-bottom: 30px;
+}
+.Traffic, .Connect, .Manage, .Support {
+  display: inline-block;
+  color: white;
+  padding: 40px 57px 0 57px;
+}
+.credits h4 {
+  font-size: 16px;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+.list li {
+  list-style-type: none;
+  padding: 10px 0;
+  font-weight: lighter;
+}
+.Support .list li:last-child {
+  padding-bottom: 20px;
+}
+.Support .contact {
+  display: table;
+  background-color: lightgrey;
+  color: #47424f;
+  font-size: 13px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  line-height: 20px;
+  vertical-align: middle;
+}
+.fontsawesome {
+  padding-top: 20px;
+  display: table;
+}
+.fontsawesome i {
+  padding: 0 10.5px;
+}
+.fontsawesome a, .Languages a {
+  text-decoration: none;
+  color: white;
+}
+.Languages ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+.Languages {
+  padding-top: 80px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.final {
+  padding-top: 35px;
+  color: white;
+  float: left;
+}
+.Legalities ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 15px;
+}
+.Legalities a {
+  text-decoration: none;
+  color: white;
+}
+.Legalities {
+  float: right;
+  padding-top: 35px;
 }
