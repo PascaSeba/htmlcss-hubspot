@@ -88,7 +88,7 @@ body {
   height: 8.9vh;
 }
 #logo {
-  padding-top: 11px;
+  padding-top: 14px;
   float: left;
   width: 55%;
   padding-left: 9px;
@@ -109,7 +109,7 @@ body {
   font-size: 16px;
 }
 .thirdnav {
-  padding-top: 17px;
+  padding-top: 19px;
   float: left;
   width: 40%;
 }
@@ -148,10 +148,10 @@ body {
 }
 .headertext h1 {
   font-size: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 .headertext p {
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 .headertext a {
   background-color: orange;
@@ -166,7 +166,7 @@ body {
 }
 .headertext span {
   display: inline-block;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .camaleonte {
   background-color: #fff2ee;
