@@ -83,6 +83,11 @@ body {
   padding-right: 20px;
   text-decoration: none;
 }
+.button_1 a:hover, .button_2 a:hover, .buttonfree:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
 /*  ---Fine primo menu--- */
 
 
@@ -136,7 +141,6 @@ body {
   background-position: right;
   position: relative;
 }
-
 .divisore {
   background-color: #69f0d8;
   width: 100%;
@@ -171,6 +175,7 @@ body {
   padding-right: 20px;
   text-decoration: none;
 }
+
 .headertext span {
   display: inline-block;
   padding-top: 40px;
@@ -288,6 +293,9 @@ padding-top: 50px;
   width: 27.26%;
   margin-top: 50px;
   padding: 30px 30px;
+}
+.marketing:hover, .sales:hover, .service:hover, .CRM:hover {
+  box-shadow: 15px 15px 10px lightgrey;
 }
 .sales {
   margin-left: 50px;
@@ -496,6 +504,13 @@ padding-top: 40px;
   line-height: 20px;
   vertical-align: middle;
 }
+.Support ul li a, .Manage ul li a, .Connect ul li a, .Traffic ul li a {
+  color: white;
+  text-decoration: none;
+}
+.Support ul li a:hover, .Manage ul li a:hover, .Connect ul li a:hover, .Traffic ul li a:hover {
+  text-decoration: underline;
+}
 .fontsawesome {
   padding-top: 20px;
   display: table;
@@ -516,6 +531,9 @@ padding-top: 40px;
   padding-top: 80px;
   text-align: center;
   padding-bottom: 20px;
+}
+.Languages ul li a:hover, .Legalities ul li a:hover {
+  text-decoration: underline;
 }
 .final {
   padding-top: 35px;
